@@ -6,7 +6,7 @@ intents = discord.Intents.default()
 
 client = commands.Bot(command_prefix='?', intents=intents)
 
-TOKEN = 'MTA5MTM1MTgwNjE5OTc0NjYxMQ.G2QTFt.oTlU5leTScmM5wY7MNkWso7u4D1pq1-XLHf14Q'
+TOKEN = 'оно ругается когда я кидаю токен'
 
 try:
     with open('sent_messages.json', 'r') as f:
